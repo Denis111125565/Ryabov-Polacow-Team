@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Books.css">
+</head>
+<body>
+    
+    <!------------------------------------------------------------------- БУРГЕР-МЕНЮ -->
+    <div class="burger-menu">
+        <input type="checkbox" id="burger-toggle" class="burger-checkbox">
+        
+        <label for="burger-toggle" class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="mobile-nav">
+            <!-- Навигация -->
+            <ul class="nav-list">
+                <li><a href="#catalog">Каталог</a></li>
+                <li><a href="#podborki">Подборки</a></li>
+                <li><a href="#o-nas">О нас</a></li>
+                <li><a href="#news">Новости</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!------------------------------------------------------------------- БУРГЕР-МЕНЮ -->
+
+
+<header class="header-container">
+
+    <nav>
+        <ul class="nav-center">
+            <li><a href="#catalog" class="nav">Каталог</a></li>
+            <li><a href="#podborki" class="nav">Подборки</a></li>
+            <li><a href="#o-nas" class="nav">О нас</a></li>
+            <li><a href="#news" class="nav">Новости</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <figure class="banner" id="catalog">
+        <img src="images/banner.jpg" alt="banner">
+    </figure>
+
+    <section>
+
+        <div class="h1-center" id="podborki">
+            <h1>Новинки литературы</h1>
+        </div>
+            
+
+        <div class="books-center">
+            
+            <article class="image-container">
+                <img src="images/1.webp" alt="1-book" class="image-size">
+                <button class="button">Подробнее</button>
+            </article>
+
+            <article class="image-container">
+                <img src="images/2.webp" alt="2-book" class="image-size">
+                <button class="button">Подробнее</button>
+            </article>
+
+            <article class="image-container">
+                <img src="images/3.webp" alt="3-book" class="image-size">
+                <button class="button">Подробнее</button>
+            </article>
+            
+        </div>
+
+    </section>
+    
+    
+
+    <section class="text-container">
+
+        <div class="h1-center">
+            <h1>Услуги</h1>
+        </div>
+
+        <p>Дружелюбие, комфорт и масса хорошего настроения – вот услуги нашей компании. А ещё это новые знакомства, интересные события и приятные<br>
+         сюрпризы.</p>
+
+        <h4 class="h4-text">Подарочные карты</h4>
+
+        <ul class="ul-margin">
+            <li>500 рублей</li>
+            <li>1000 рублей</li>
+            <li>2000 рублей</li>
+            <li>3000 рублей</li>
+            <li>5000 рублей</li>
+        </ul>
+
+        <p>Если не знаете что подарить или на поиски не хватает времени, подарочная карта – лучший выбор.</p>
+
+        <p>Срок действия карты 1 год, вы можете купить её в ближайшем магазине «Читай-город». Более подробная информация – в правилах использования<br> подарочных карт.</p>
+
+        <p>Вы можете заказать подарочные карты для своей компании. Напишите нам через форму обратной связи , и мы расскажем, как это сделать.</p>
+
+        <p>Специально для маленьких читателей мы сделали «Личную карту читай-агента». С ней ребёнок полюбит чтение, ведь он сам сможет выбрать и купить книги в магазине.</p>
+    </section>
+
+
+    
+    <section class="sale-container">
+
+        <h1 class="sale" id="news">Акции</h1>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Период<br>проведения</th>
+                    <th>Где<br>проводится</th>
+                    <th>Скидка</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>День рождения Супермена</td>
+                    <td  rowspan="2">01.06 - 06.06</td>
+                    <td  rowspan="2">Интернет-<br>магазин</td>
+                    <td>-22% на подборку комиксов</td>
+                </tr>
+
+                <tr>
+                    <td>Топ-100 фэнтези-романов</td>
+                    <td>-20% на подборку книг Мосян Тунсю, Терри Пратчетта и Лин Арден</td>
+                </tr>
+
+                <tr>
+                    <td>Книжный фестиваль<br>«Красная площадь»</td>
+                    <td>01.06 - 07.06</td>
+                    <td>Интернет-<br>магазин</td>
+                    <td> -25% при покупке от трёх книг;<br>
+                        -30% при покупке от четырёх книг.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Тяните карту!</td>
+                    <td>15.05 - 16.07</td>
+                    <td>Магазины сети</td>
+                    <td>Всем, кто сделает покупку от 700 рублей в магазинах сети, мы подарим индивидуальный штрихкод.<br>
+                         Сотрите с него защитный слой — вас ждут скидки от 20 до 50%.</td>
+                </tr>
+            </tbody>
+
+
+
+
+
+        </table>
+
+    </section>
+</main>
+
+<footer class="footer-center" id="o-nas">
+    <p>Экзаменационная работа студента группы 45 <span class="FIO-bold">Рябова Дениса Михайловича</span></p>
+</footer>
+
+
+
+</body>
+</html>

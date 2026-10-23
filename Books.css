@@ -1,0 +1,361 @@
+body {
+    margin: 0;
+}
+
+/* -------------------------------------------------------Навигация */
+.nav-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+    list-style-type: none;
+
+    width: 100%;
+    height: 90px;
+    background-color: #26a9e0;
+
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    color: white;
+    text-decoration: none;
+}
+/* -------------------------------------------------------Навигация */
+
+/* ----------------------------------------------------------Баннер */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: auto;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+    
+    margin: 34px;
+}
+/* ----------------------------------------------------------Баннер */
+
+/* ----------------------------------------------------h1-заголовок */
+.h1-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ----------------------------------------------------h1-заголовок */
+
+/* ----------------------------------------------------Книги */
+.books-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 64px
+}
+.image-container {
+    width: 311px;
+}
+.image-size {
+    width: 311px;
+}
+.button {
+    width: 100%;
+    height: 50px;
+
+    color:white;
+    background-color: #26a9e0;
+
+    border-radius: 5px;
+}
+/* ----------------------------------------------------Книги */
+
+/* ----------------------------------------------------Текст */
+.h4-text {
+    margin-bottom: 0;
+}
+.ul-margin {
+    margin-top: 0;
+}
+.text-container {
+    margin: 0px 120px 0px 90px;
+}
+/* ----------------------------------------------------Текст */
+
+/* ----------------------------------------------------Таблица */
+.sale-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    /* height: 280px; */
+    padding: 30px 0;
+    height: auto;
+    width: 100%;
+
+    background-color: #26a9e0;
+}
+.sale {
+    color:white;
+    margin-bottom: 10px;
+}
+.table {
+    width: 90%;
+
+    border: 1px solid white;
+    border-collapse: collapse;
+
+    color:white;
+}
+
+.table th,
+.table td {
+    border: 1px solid white;
+    padding: 5px 8px;
+    text-align: left;
+}
+.table th {
+    text-align: center;
+    font-weight: bold;
+}
+/* ----------------------------------------------------Таблица */
+
+/* ----------------------------------------------------Подвал */
+.footer-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    height: 100px;
+}
+.FIO-bold {
+    font-weight: bold;
+}
+/* ----------------------------------------------------Подвал */
+
+/* ---------------------------------------------------------------------------Бургер-меню */
+.burger-menu,
+.burger-icon {
+    display: none;
+}
+
+.burger-checkbox {
+    display: none;
+}
+
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #4a0f02;
+    box-shadow: 2px 0 15px rgba(0, 0, 0, 0.5);
+    padding: 30px 20px;
+    z-index: 999;
+    transform: translateX(-100%);
+    transition: transform 0.4s cubic-bezier(.85,1.27,0,.87);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mobile-logo img {
+    width: 120px;
+}
+
+.mobile-user {
+    margin: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.nav-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    transition: color 0.2s;
+}
+
+.nav-list a:hover {
+    color: #fe8e05;
+}
+
+/* Анимация иконки */
+.burger-icon {
+    position: fixed;
+    top: 25px;
+    right: 20px;
+    z-index: 1000;
+    width: 30px;
+    height: 24px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.burger-icon span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #26a9e0;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    transform-origin: left center;
+
+    margin-left: 15px;
+}
+
+.burger-checkbox:checked ~ .burger-icon span {
+    background-color: #fe8e05;
+}
+.burger-checkbox:checked ~ .burger-icon span:nth-child(1) {
+    transform: rotate(45deg);
+}
+.burger-checkbox:checked ~ .burger-icon span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(-10px);
+}
+.burger-checkbox:checked ~ .burger-icon span:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+.burger-checkbox:checked ~ .mobile-nav {
+    transform: translateX(0);
+}
+/* ---------------------------------------------------------------------------Бургер-меню */
+
+
+
+/* --------------------------------------------------------------------------------------------------------АДАПТИВ */
+
+/* ----------------------------------------------------Адаптив для 1900px и более*/
+@media screen and (min-width: 1900px) {
+   .nav {
+    font-size: 38px;
+    
+   }
+   .text-container {
+    font-size: 28px;
+   }
+   .table {
+        font-size: 28px;
+    }
+
+    .footer-center {
+        font-size: 28px;
+    }
+}
+/* ----------------------------------------------------Адаптив для 2000px и более*/
+
+
+/* ----------------------------------------------------Адаптив для 1260px */
+@media screen and (max-width: 1260px) {
+    
+    .image-container {
+        width: 250px;
+        height: 392px;
+    }
+
+    .image-size {
+        width: 250px;
+        height: 338px;
+    }
+    /* .banner {
+        margin: 0px 50px 0px 50px;
+    } */
+}
+
+/* ----------------------------------------------------Адаптив для 932px */
+@media screen and (max-width: 954px) {
+
+
+/* Бургер-меню ВКЛ */
+    .header-container {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .burger-icon {
+        display: flex;
+    }
+/* Бургер-меню ВКЛ */
+
+.banner img {
+    margin-top: 0;
+}
+
+    .image-container {
+        width: 150px;
+        height: 304px;
+    }
+    .image-size {
+        width: 150px;
+        height: 250px;
+    }
+}
+/* ----------------------------------------------------Адаптив для 932px */
+
+
+/* ----------------------------------------------------Адаптив для 624px */
+@media screen and (max-width: 664px) {
+
+    .books-center {
+        flex-direction: column;
+    }
+    .footer-center {
+        font-size: 12px;
+    }
+
+    .text-container {
+    margin: 0px 30px 0px 30px;
+
+    
+    text-align: center;
+    }
+    .ul-margin {
+        list-style-position: inside
+    }
+
+    .mobile-nav {
+        width: 120px;
+    }
+}
+/* ----------------------------------------------------Адаптив для 624px */
+
+/* ----------------------------------------------------Адаптив для 498px */
+@media screen and (max-width: 498px) {
+
+    .table {
+        font-size: 10px;
+    }
+    .h1-center {
+        font-size: 14px;
+    }
+
+    .footer-center {
+        margin: 0px 20px 0px 20px;
+    }
+}
+/* ----------------------------------------------------Адаптив для 498px */
