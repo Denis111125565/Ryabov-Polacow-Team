@@ -1,0 +1,1299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #621402;
+    font-family: "Roboto";
+
+    min-height: 200vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+
+    background-image: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%),
+        url('../Ryabov-Polycow2.0/images/bg.png');
+
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+
+    margin-left: 25px;
+    list-style-type: none;
+
+    padding-left: 31px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: white;
+
+    margin-right: 25px;
+
+    font-size: 14px;
+}
+
+.avatar {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+
+    margin-left: 11px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+
+    margin-top: 30px;
+}
+
+.user {
+    margin-left: auto;
+    color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+/* ------------------------------------------------^^^^^^^Header^^^^^^^ */
+
+
+
+
+.text1 {
+    margin-top: 90px;
+    font-size: 24px;
+
+    line-height: 150%;
+    letter-spacing: 0%;
+
+    opacity: 50%;
+
+    color:white;
+}
+.text2 {
+    margin-top: 11px;
+    font-size: 36px;
+
+    color:white;
+}
+.text3 {
+    font-size: 16px;
+    color:white;
+
+    line-height: 150%;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+}
+
+.text-container2 {
+    max-width: 570px;
+}
+
+.play-button {
+    max-width: 100px;
+    max-height: 100px;
+
+    margin-left: 330px;
+}
+
+/* ------------------------------------------------^^^^^^^Текст + кнопка play^^^^^^^ */
+
+.minutes {
+    margin-top: 53px;
+
+    display: flex;
+    align-items: center;
+}
+.text4 {
+    margin-left: 20px;
+    color: white;
+
+    font-size: 16px;
+}
+.clock {
+    max-width: 20px;
+    max-height: 20px;
+}
+.imdb {
+    max-width: 35px;
+    max-height: 17,5px;
+
+    margin-left: 34px;
+}
+.text5 {
+    font-size: 24px;
+    color: white;
+
+    margin-left: 12px;
+}
+.text6 {
+    font-size: 16px;
+    color: white;
+
+    margin-left: 6px;
+}
+
+/* ------------------------------------------------^^^^^^^Минуты^^^^^^^ */
+
+.line-1 {
+    border-top: 2px solid;
+    color: white;
+
+    opacity: 50%;
+
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.line-2 {
+    border-top: 2px solid;
+    color: white;
+
+    opacity: 50%;
+
+    margin-top: 64px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.adress {
+    display: flex;
+    gap: 15px;
+    text-align: center;
+
+    
+    align-items: center;
+}
+
+
+.data-text {
+    display: flex;
+}
+.text7 {
+    color: white;
+
+    font-size: 16px;
+
+    
+}
+.text7-1 {
+    color: white;
+    
+    margin-left: 78px ;
+    margin-bottom: 20px;
+
+    font-size: 16px;
+}
+.text7-2 {
+    color: white;
+    margin-left: 430px;
+
+    margin-bottom: 20px;
+
+    font-size: 16px;
+}
+.text-flex {
+    display: flex;
+}
+
+.block {
+    
+    width: 90px;
+    height: 90px;
+
+    border: 2px solid grey;
+    
+    color: white;
+    line-height: 1px;
+    border-radius: 8%;
+}
+
+.block:hover {
+    background-color: #fe8e05;
+    color: #621402;
+
+    cursor:pointer;
+}
+
+.month {
+font-size: 16px;
+}
+.dates {
+font-size: 30px;
+font-weight: bold;
+}
+.day {
+font-size: 19px;
+}
+.text-column {
+    display: flex;
+    flex-flow: column;
+    gap: 25px;
+}
+
+.option1-container {
+    width: 470px;
+    height: 60px;
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    margin-left: 80px;
+    background-color: #2c2c2c;
+
+    display: flex;
+    align-items: center;
+}
+
+.select-1 {
+    width: 470px;
+    height: 60px;
+
+    border-radius: 5px;
+    text-align: left;
+
+    margin-left: 71px;
+
+    background: rgba(255, 255, 255, 0.15);
+
+    color: white;
+    padding: 18px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+.select-2 {
+    width: 108px;
+    height: 60px;
+
+    border-radius: 5px;
+    text-align: left;
+
+    margin-left: 30px;
+
+    background: rgba(255, 255, 255, 0.15);
+
+    color: white;
+    padding: 18px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+/* ------------------------------------------------^^^^^^^Select_1-2^^^^^^^ */
+
+.scheme path.Not-booked {
+    fill: white;
+    opacity: 20%;
+}
+
+.scheme path.Not-booked:hover {
+    fill: white;
+    opacity: 50%;
+
+    cursor:pointer;
+}
+
+
+.Not-booked:hover {
+    opacity: 50%;
+    fill: white;
+    cursor: pointer;
+}
+
+
+.scheme path.booked {
+    fill:white;
+    opacity: 0.05;
+
+    cursor: not-allowed;
+}
+
+.legenda .booked:hover {
+    cursor: not-allowed;
+}
+
+
+.legenda.legenda-svobodno.legenda-label path.booked:hover {
+    opacity: 50%;
+    fill: white;
+    cursor: pointer;
+}
+
+
+.svobodno-cube {
+    width: 26px;
+    height: 23px;
+
+    border-radius: 5px;
+
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.zanyto-cube {
+    width: 26px;
+    height: 23px;
+
+    border-radius: 5px;
+
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.vibrano-cube {
+    width: 26px;
+    height: 23px;
+
+    border-radius: 5px;
+
+    background-color: rgb(254, 142, 5);
+}
+
+.active-mesto {
+    fill: rgb(254, 142, 5);
+}
+
+path:active {
+    fill: rgb(254, 142, 5);
+}
+
+.scheme-zal{
+
+    width: 100%;
+    max-width: 1170px;
+    height: 724px;
+    margin: 64px auto 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgba(36, 36, 36, 0.18);
+
+}
+
+.hr {
+    width: 100%;
+    max-width: 1022px;
+    margin: 0 auto;
+    
+    opacity: 50%;
+}
+
+
+.legenda {
+    display: flex;
+    align-items: center;
+
+    margin-left: 70px;
+    margin-top: 25px;
+}
+.legenda-label {
+    display: flex;
+    align-items: center;
+
+    margin-right: 30px;
+}
+
+.legenda-text-1,
+.legenda-text-3 {
+    color:white;
+    opacity: 50%;
+}
+
+.legenda-text-1,
+.legenda-text-2,
+.legenda-text-3 {
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+.legenda-text-2 {
+    color: rgb(254, 142, 5);
+}
+
+/* ------------------------------------------------^^^^^^^Места^^^^^^^ */
+
+.cena-container {
+    width: 165px;
+    height: 94px;
+}
+
+.vsego {
+    color: white;
+    font-size: 18px;
+}
+.cena {
+    color:white;
+    font-size: 52px;
+}
+
+.oplata-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.oplata-button {
+    width: 254px;
+    height: 69px;
+
+    background-color: #FE8E05;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+.oplata-text {
+    display: flex;
+    justify-content: center;
+
+    padding: 24px;
+
+    color:white;
+    font-size: 18px;
+}
+
+.oplata-button-container {
+    
+    margin-top: 12px;
+}
+
+/* ------------------------------------------------^^^^^^^Оплата^^^^^^^ */
+
+/*  _____________________________________________________________________БУРГЕР-МЕНЮ____*/
+.burger-menu,
+.burger-icon {
+    display: none;
+}
+
+.burger-checkbox {
+    display: none;
+}
+
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #4a0f02;
+    box-shadow: 2px 0 15px rgba(0, 0, 0, 0.5);
+    padding: 30px 20px;
+    z-index: 999;
+    transform: translateX(-100%);
+    transition: transform 0.4s cubic-bezier(.85,1.27,0,.87);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mobile-logo img {
+    width: 120px;
+}
+
+.mobile-user {
+    margin: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.nav-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    transition: color 0.2s;
+}
+
+.nav-list a:hover {
+    color: #fe8e05;
+}
+
+/* Анимация иконки */
+.burger-icon {
+    position: fixed;
+    top: 25px;
+    right: 20px;
+    z-index: 1000;
+    width: 30px;
+    height: 24px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.burger-icon span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    transform-origin: left center;
+}
+
+.burger-checkbox:checked ~ .burger-icon span {
+    background-color: #fe8e05;
+}
+.burger-checkbox:checked ~ .burger-icon span:nth-child(1) {
+    transform: rotate(45deg);
+}
+.burger-checkbox:checked ~ .burger-icon span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(-10px);
+}
+.burger-checkbox:checked ~ .burger-icon span:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+.burger-checkbox:checked ~ .mobile-nav {
+    transform: translateX(0);
+}
+
+
+/*  _____________________________________________________________________НОУТБУК 1120px____*/
+@media screen and (max-width: 1120px) {
+    .container {
+        width: 100%;
+        max-width: 1170px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .header-container {
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .user {
+        margin-right: 0;
+        margin-left: auto;
+        flex-shrink: 0;
+    }
+
+    .text-container {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .play-button {
+        margin-left: auto;
+        flex-shrink: 0;
+    }
+
+    .minutes {
+        margin-left: 0;
+        flex-wrap: wrap;
+        gap: 10px 0;
+    }
+
+    .line-1,
+    .line-2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+        margin: 0 auto;
+    }
+
+    .adress {
+        justify-content: center;
+    }
+
+    .cinema-selection {
+        width: 100%;
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .select-text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .text-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .text7-1, 
+    .text7-2 {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .select-1,
+    .select-2 {
+        width: 100%;
+        max-width: 400px;
+        margin: 0;
+    }
+
+    .scheme-zal {
+        width: 100%;
+        max-width: 1170px;
+        height: auto;
+        margin: 64px auto 0;
+    }
+
+    .scheme {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .hr {
+        width: 100%;
+        max-width: 1022px;
+        margin: 0 auto;
+    }
+
+    .legenda {
+        flex-wrap: wrap;
+        gap: 15px 30px;
+        margin-left: 0;
+        padding-left: 20px;
+        width: 100%;
+    }
+
+    .oplata-container {
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .oplata-button {
+        max-width: 100%;
+    }
+}
+
+
+/*  _____________________________________________________________________ПЛАНШЕТ 768px____*/
+@media screen and (max-width: 768px) {
+
+    .header-container {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .burger-icon {
+        display: flex;
+    }
+
+    .nav {
+        width: 100%;
+        order: 3;               
+    }
+
+    .menu {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px 20px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .menu-link {
+        margin-right: 0;
+    }
+
+    .user {
+        margin-left: 0;
+    }
+
+    .text-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .text-container2 {
+        max-width: 100%;
+    }
+
+    .play-button {
+        margin-left: 0;
+        align-self: center;
+        width: 80px;
+        height: 80px;
+    }
+
+    .minutes {
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .data {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .adress {
+        justify-content: center;
+    }
+
+    .scheme-zal {
+        margin-top: 40px;
+        padding: 5px;
+    }
+
+    .legenda {
+        justify-content: center;
+        padding-left: 0;
+        margin-top: 20px;
+        gap: 12px 20px;
+    }
+
+    .legenda-label {
+        margin-right: 0;
+    }
+
+    .oplata-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .cena-container {
+        width: auto;
+        height: auto;
+    }
+
+    .text1 {
+        font-size: 20px;
+        margin-top: 50px; 
+    }
+    .text2 { font-size: 28px; }
+    .text3 { font-size: 15px; }
+
+    .vsego {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+/*  _____________________________________________________________________БОЛЬШОЙ ТЕЛЕФОН 425px____*/
+@media screen and (max-width: 425px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .menu {
+        gap: 8px 15px;
+    }
+
+    .menu-link {
+        font-size: 13px;
+    }
+
+    .user span {
+        font-size: 13px;
+    }
+
+    .avatar {
+        width: 28px;
+        height: 28px;
+        margin-left: 8px;
+    }
+
+    .text1 {
+        margin-top: 40px;
+        font-size: 16px;
+    }
+
+    .text2 {
+        font-size: 22px;
+    }
+
+    .text3 {
+        font-size: 14px;
+    }
+
+    .play-button {
+        width: 70px;
+        height: 70px;
+    }
+
+    .minutes {
+        margin-top: 25px;
+        gap: 8px 0;
+    }
+
+    .text4,
+    .text6 {
+        font-size: 13px;
+    }
+
+    .text5 {
+        font-size: 18px;
+        margin-left: 8px;
+    }
+
+    .imdb {
+        margin-left: 15px;
+    }
+
+    .line-1 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .line-2 {
+        margin-top: 40px;
+    }
+
+    .adress {
+        gap: 10px;
+    }
+
+    .block {
+        width: 70px;
+        height: 70px;
+    }
+
+    .month { font-size: 13px; }
+    .dates { font-size: 22px; }
+    .day   { font-size: 15px; }
+
+    .text-column {
+        gap: 18px;
+    }
+
+    .text7-1,
+    .text7-2 {
+        font-size: 14px;
+    }
+
+    .select-1,
+    .option1-container {
+        height: 52px;
+        padding: 0 14px;
+        font-size: 14px;
+    }
+
+    .select-2 {
+        height: 52px;
+        padding: 0 14px;
+        font-size: 14px;
+    }
+
+    .scheme-zal {
+        margin-top: 35px;
+        padding: 5px;
+        border-radius: 8px;
+    }
+
+    .legenda {
+        gap: 10px 20px;
+        margin-top: 15px;
+    }
+
+    .legenda-text-1,
+    .legenda-text-2,
+    .legenda-text-3 {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+
+    .svobodno-cube,
+    .zanyto-cube,
+    .vibrano-cube {
+        width: 22px;
+        height: 20px;
+    }
+
+    .oplata-container {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .vsego {
+        font-size: 15px;
+    }
+
+    .cena {
+        font-size: 40px;
+    }
+
+    .oplata-button {
+        width: 100%;
+        max-width: 280px;
+        height: 58px;
+    }
+
+    .oplata-text {
+        font-size: 16px;
+        padding: 18px;
+    }
+}
+
+
+/*  _____________________________________________________________________СРЕДНИЙ ТЕЛЕФОН 375px____*/
+@media screen and (max-width: 375px) {
+    .container {
+        padding: 0 12px;
+    }
+
+    .menu {
+        gap: 6px 12px;
+    }
+
+    .menu-link {
+        font-size: 12px;
+    }
+
+    .user span {
+        font-size: 12px;
+    }
+
+    .avatar {
+        width: 26px;
+        height: 26px;
+    }
+
+    .text1 {
+        font-size: 15px;
+        margin-top: 35px;
+    }
+
+    .text2 {
+        font-size: 20px;
+    }
+
+    .text3 {
+        font-size: 13px;
+    }
+
+    .play-button {
+        width: 60px;
+        height: 60px;
+    }
+
+    .text4,
+    .text6 {
+        font-size: 12px;
+    }
+
+    .text5 {
+        font-size: 16px;
+    }
+
+    .block {
+        width: 62px;
+        height: 62px;
+    }
+
+    .month { font-size: 12px; }
+    .dates { font-size: 20px; }
+    .day   { font-size: 13px; }
+
+    .text-column {
+        gap: 16px;
+    }
+
+    .text7-1,
+    .text7-2 {
+        font-size: 13px;
+    }
+
+    .select-1,
+    .option1-container {
+        height: 48px;
+        padding: 0 12px;
+        font-size: 13px;
+    }
+
+    .select-2 {
+        height: 48px;
+        padding: 0 12px;
+        font-size: 13px;
+        width: 100%;
+        max-width: 160px;
+    }
+
+    .legenda {
+        gap: 8px 15px;
+    }
+
+    .legenda-text-1,
+    .legenda-text-2,
+    .legenda-text-3 {
+        margin-left: 8px;
+        font-size: 12px;
+    }
+
+    .svobodno-cube,
+    .zanyto-cube,
+    .vibrano-cube {
+        width: 20px;
+        height: 18px;
+    }
+
+    .vsego {
+        font-size: 14px;
+    }
+
+    .cena {
+        font-size: 34px;
+    }
+
+    .oplata-button {
+        max-width: 260px;
+        height: 54px;
+    }
+
+    .oplata-text {
+        font-size: 15px;
+        padding: 16px;
+    }
+}
+
+
+/*  _____________________________________________________________________НЕБОЛЬШОЙ ТЕЛЕФОН 320px____*/
+@media screen and (max-width: 320px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .menu {
+        gap: 6px 10px;
+    }
+
+    .menu-link {
+        font-size: 11px;
+    }
+
+    .user span {
+        font-size: 11px;
+    }
+
+    .avatar {
+        width: 24px;
+        height: 24px;
+        margin-left: 6px;
+    }
+
+    .text1 {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    .text2 {
+        font-size: 18px;
+    }
+
+    .text3 {
+        font-size: 12px;
+    }
+
+    .play-button {
+        width: 55px;
+        height: 55px;
+    }
+
+    .minutes {
+        margin-top: 20px;
+    }
+
+    .text4,
+    .text6 {
+        font-size: 11px;
+    }
+
+    .text5 {
+        font-size: 15px;
+    }
+
+    .imdb {
+        margin-left: 10px;
+        width: 30px;
+    }
+
+    .clock {
+        width: 16px;
+        height: 16px;
+    }
+
+    .line-1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .line-2 {
+        margin-top: 30px;
+    }
+
+    .adress {
+        gap: 8px;
+    }
+
+    .block {
+        width: 55px;
+        height: 55px;
+    }
+
+    .month { font-size: 11px; }
+    .dates { font-size: 18px; }
+    .day   { font-size: 12px; }
+
+    .text-column {
+        gap: 14px;
+    }
+
+    .text7-1,
+    .text7-2 {
+        font-size: 12px;
+    }
+
+    .select-1,
+    .option1-container {
+        height: 44px;
+        padding: 0 10px;
+        font-size: 12px;
+    }
+
+    .select-2 {
+        height: 44px;
+        padding: 0 10px;
+        font-size: 12px;
+        max-width: 140px;
+    }
+
+    .scheme-zal {
+        margin-top: 30px;
+        padding: 3px;
+    }
+
+    .legenda {
+        gap: 8px 12px;
+        margin-top: 12px;
+    }
+
+    .legenda-text-1,
+    .legenda-text-2,
+    .legenda-text-3 {
+        margin-left: 6px;
+        font-size: 11px;
+    }
+
+    .svobodno-cube,
+    .zanyto-cube,
+    .vibrano-cube {
+        width: 18px;
+        height: 16px;
+        border-radius: 4px;
+    }
+
+    .oplata-container {
+        margin-top: 35px;
+        margin-bottom: 25px;
+    }
+
+    .vsego {
+        font-size: 13px;
+    }
+
+    .cena {
+        font-size: 30px;
+    }
+
+    .oplata-button {
+        max-width: 240px;
+        height: 50px;
+    }
+
+    .oplata-text {
+        font-size: 14px;
+        padding: 14px;
+    }
+}
+
+/* ========================================================
+   ШИРОКИЕ ЭКРАНЫ, больше 1440px)
+   ======================================================== */
+@media screen and (min-width: 1441px) {
+    
+    
+    .container {
+        max-width: 1320px;
+    }
+
+    
+    .scheme-zal {
+        max-width: 1320px;
+        height: 814px;
+    }
+
+    
+    .text1 { 
+        font-size: 28px;
+     }
+    .text2 { 
+        font-size: 42px; 
+    }
+    .text3 { 
+        font-size: 18px; 
+    }
+    .text5 { 
+        font-size: 28px; 
+    }
+    .text6 { 
+        font-size: 18px;
+    }
+}
